@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Assignment2.css">
+        <title>My Form project</title>
+    </head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+                <h1 id="title">General Information</h1>
+                    <ol type="1">
+                                    <li><strong>Accommodations are limited and will be leased on a first-come, first-served basis. The
+                                        submission and acceptance of this application <u>DO NOT</u> ensure accommodations.</strong>*
+                                        <p id="description"><em>Your unit is secured only upon <b>execution of the lease agreement by all parties.</b>
+                                        Rates/installments, fess and utilities included are subjext to change. Rates/installments do not
+                                    represent a monthly amount (and are not prorated), but rather the total base rent due for the lease term
+                                divide by the number of installments.</em></p>
+                                    </li>
+
+                                <input type="radio" name="note" id="note" class="inline"> <label for="assurance">I have read and understood this section </label>
+                                
+
+                                <li><strong>An <u>Application Fee</u> and <u>Security Deposit</u> is Required in Order to Reserve a Spot.</strong>*</li>
+                                <p><em>Please proceed with online paymet via our payment platform Letus upon completion of this application.</em></p>
+                                <input type="radio" name="note" id="note" class="inline"> <label for="assurance">I have read and understood this
+                                    section
+                                </label>
+
+                                <li><strong>The Following Documents are Required for our Leasing Team To Review and Process this Application.</strong>*
+                                    <ol type="1">
+                                        <li>Application Government Issued Photo ID</li>
+                                        <li>Guarantor Government Issued Photo ID</li>
+                                        <li>Receipt for First Month's Rent Payment</li>
+                                        <li>Canadian Study Permit (If applicable) </li>
+                                    </ol>
+                                <p><strong>Please email the following documents immediately after submitting your application to Centennial
+                                    place at <a href="CentennialResidence@Studenthousing.com">CentennialResidence@Studenthousing.com</a>
+                                </strong></p>
+
+                                <input type="radio" name="read" id="read" class="inline"> <label>I have read and understood this section</label>
+                            </li>
+
+                            <li><strong>Is the Applicant Currently A Resident of Centennial Place?</strong></li>
+                            <p><em>If You Currently Reside at Centennial Place Residence, please contact us at <a href="CentennialResidence@Studenthousing.com">
+                                CentennialResidence@Studenthousing.com</a> for our Renewal</em></p>
+                                <input type="radio" name="Yes" id="Yes" class="inline" value="Yes"> <label for="must-check">Yes</label>
+                                                <br>
+                                                <br>
+                                <input type="radio" name="No" id="No" class="bottom" value="No"> <label for="must-check">No</label>
+
+                        <label id="select"><li><strong>Applicant Institute</strong> *</li> </label> 
+                        
+                        <select id="dropdown">
+                            <option>Select your answer</option>
+                            <option>Centennial College</option>
+                            <option>University of Toronto Scarborough</option>
+                            <option>Other</option>
+                        </select>
+
+                                    <br>
+                                    <br>
+                                    <br>
+
+                        <label id="select"><li><strong>Applicant Academic Classification</strong> *</li> </label> 
+                        
+                        <select id="dropdown2">
+                            <option>First Year / Freshman</option>
+                            <option>Second Year / Sophomore</option>
+                            <option>Third Year / Junior</option>
+                            <option>Fourth Year / Senior</option>
+                            <option>Post-Graduate Studies</option>
+                            <option>Other</option>
+                        </select>
+
+                                        <br>
+                                        <br>
+                                        <br>
+
+                        <label id="select"><li><strong>Applicant Student Identification Number</strong> *</li> </label> 
+                            <p><em>*eg. (305710524 OR 100023409). Please do not include dashes.</em></p>
+                        <input type="text" id="number" name="number" placeholder="The value must be a number">
+
+                                                <br>
+
+                        <label id="select"><li><strong>How Did You Hear About Us?</strong> </li> </label> 
+                        *
+                        <p><em>Please check all that apply.</em></p>
+
+                        <br>
+
+                        <input type="checkbox" id="Mail/Acceptance Package" name="Mail/Acceptance Package"> <label>Mail/Acceptance Package</label>
+                                                
+                                                <br>
+
+                        <input type="checkbox" id="College E-Blast" name="College E-Blast"> <label>College E-Blast</label>
+
+                        <br>
+
+                        <input type="checkbox" id="Housing Fair" name="Housing Fair"> <label>Housing Fair</label>
+
+                        <br>
+
+
+                        <input type="checkbox" id="Centennial Place Website" name="Centennial Place Website"> <label>Centennial Place Website</label>
+
+                        <br>
+
+                        <input type="checkbox" id="College/Residence Brochure" name="College/Residence Brochure"> <label>College/Residence Brochure</label>
+
+                        <br>
+                        
+                        <input type="checkbox" id="Referred by a Friend" name="Referred by a Friend"> <label>Referred by a Friend</label>
+
+                        <br>
+                    
+                        <input type="checkbox" id="Social Media" name="Social Media"> <label>Social Media (Facebook/Instagram/Tiktok)</label>
+
+                        <br>
+
+                        <input type="checkbox" id="On Campus Marketing" name="On Campus Marketing"> <label>On Campus Marketing</label>
+
+                        <br>
+
+                        <input type="checkbox" id="Other" name="Other"> <label>Other</label>
+
+                    </ol>
+
+                    <h2>Please Ensure To Fill This As Well.</h2>
+
+            
+                <form class="My-form">
+                    <div class="form-group">
+                        <label for="name" id="name-label">Enter Your Name: </label>
+                        <input type="text" id="name" placeholder="Enter your name" required>
+                    </div>
+
+                    <div>
+                        <label id="survey-form" for="email" id="email-label">Enter Your Email: </label>
+                        <input type="text" id="Email" placeholder="Enter your emial" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}">
+                    </div>   
+                            
+                  <!---  <div>             
+                        <label id="age" for="number-label">Age(optional): </label>
+                        <input type="number" id="number" name="number" min="18" max="30" placeholder="age" required>
+                    </div>--->
+
+                    <div>
+                        <label>Message</label>
+                        <textarea name="message"> </textarea>
+                    </div>
+
+                        <input class="button" type="submit" value="submit">
+                    </div>
+                </form>
+
+
+        </div>
+
+    </div><!----CONTAINER-->
+
+    <!---<div style="margin-top: 50px;"> </div>--->
+</body>
+</html>

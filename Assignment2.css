@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(./centinnel-college.webp);
+    color: #555555;
+    font: 16px Arial, Havertical, San-Serif;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+
+/*FOR THE FIRST DIV*/
+
+.container{
+    width:80%;
+    margin: auto;
+}
+
+/*END OF THE SECOND DIV*/
+
+
+/*For THE SECOND DIV*/
+
+.wrapper{
+    background-color: #94AFCA;
+    color: black;
+    border-top:10px rgb(163, 163, 245) solid;
+    padding-top: 20px;
+    margin: 20px 0;
+}
+
+/*END OF THE SECOND DIV*/
+
+
+
+/*THE FIRST HEADING AT THE TOP*/
+
+#title{
+    text-align: center;
+    color: black;
+    font: 40px Arial, Helvetical, san-serif;
+    font-weight: 600;
+}
+
+/*END OF THE FIRST HEADING AT THE TOP*/
+
+
+/*ALL LIST GROUP IN ONE SECTION*/
+
+
+li {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+ol{
+    padding-left: 25px;
+}
+
+/*END OF ALL LIST GROUPED IN ONE SECTION*/
+
+
+/*LINK FOR THE EMAIL*/
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+}
+
+a:active{
+    color: green;
+}
+
+/*END OF THE EMAIL LINK*/
+
+#dropdown{
+    margin-left: 20px;
+    padding: 5px;
+}
+
+#dropdown2{
+    margin-left: 20px;
+    padding: 5px;
+}
+
+#number{
+    padding:5px;
+    margin-left: 20px;
+}
+
+/*SECOND SECTION*/
+
+h2{
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    font: 30px courier;
+    font-weight: 700;
+    font-variant: normal;
+    color: #070501;
+    
+}
+
+
+/*END OF THE SECOND HEADER*/
+
+/*FORM-SURVEY*/
+.My-form{
+    padding: 20px;
+}
+
+.My form .form-group{
+    padding-bottom: 15px;
+}
+
+
+.My-form label{
+    display: block;
+}
+
+.My-form input[type="text"], .My-form textarea { /*.My-form ag]e{*/
+    padding: 8px;
+    width: 50%;
+}
+
+.button {
+    background-color: rgb(140, 140, 150);
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+.button:hover{
+    background-color: rgb(173, 173, 236);
+    color:#fff
+}
+
+#age{
+    padding: 20px;
+}
